@@ -1,0 +1,23 @@
+
+body{
+	font-family: inria Sans, sans-serif;
+	background-color: #95cbf0;
+	text-align: center;
+}
+
+main a:hover{
+	color: green;
+
+}
+
+img.fireworks{
+	height:500px;
+	width: 700px;
+}
+
+footer h3{
+	font-size: 13;
+	color: gray;
+
+}
+
