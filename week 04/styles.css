@@ -1,0 +1,62 @@
+body{
+	font-family: "Karla", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	text-align: center;
+	background-color:#adf7f1;
+	padding: 0px;
+	margin:0px;
+	list-style-type: none;
+}
+
+#wrapper{
+	width: 80%;
+	margin: 0px auto 0px auto;
+
+}
+
+
+nav{
+	background-color: #95c9e8;
+	padding: 10px;
+	margin:20px;
+}
+nav a{
+	padding: 50px;
+}
+nav a:hover{
+	color: blue;
+}
+
+div{
+	list-style-type: none;
+}
+
+.images{
+	background-size: auto;
+	padding: 20px;
+}
+
+/*
+
+header{
+	background-color: #0f0;
+}
+
+nav{
+	background-color: #000;
+}
+/*
+main{
+	background-color: #999;
+}
+
+section{
+	background-color: #FFF;
+}
+
+footer{
+	background-color: #CCC;
+}
+*/
