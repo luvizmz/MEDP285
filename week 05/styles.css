@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+	font-family: "Lora", serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+}
+
+nav{
+	padding: 10px;
+	margin: 5px;
+	background-color: #B8C0FF;
+}
+nav a:hover{
+	color:#5564F8;
+
+}
+
+#wrapper{
+	width: 80%;
+	margin: 0px auto 0px auto;
+}
+
+.gallery{
+	width: auto;
+	padding: 10px;
+	margin: 5px;
+}
