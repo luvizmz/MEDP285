@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+	<style>
+		body{
+			/*background-color: #f7b7ea;*/
+			margin: auto;
+			width: 640px; 
+  			padding: 50px;
+			background-image: url("images/heart.gif");
+    		background-size: cover;
+		}
+		main{
+			text-align: center;
+		}
+		nav{
+			/*border: 2px solid #f542e6;*/
+			position:sticky;
+			top:0;
+			padding:5px;
+			margin: 2px;
+			font-size: 50px;
+		}
+		h2,h3{
+			color:#FFFFFF;
+			font-size: 25px;
+		}
+		h3{
+			color:#FFFFFF;
+		}
+		h2{
+			font-size:16px;
+		}
+		a{
+			text-decoration: none;
+		}
+
+		.container{
+			background-color: #f7b7ea;
+		}
+		.surprise-me-button{
+			background-color: #f51dd1;
+  			color: white;
+  			padding: 15px 32px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			border-radius: 12px;
+  			font-size: 10px;
+  			position:absolute;
+  			bottom: 40px;
+  			right: 100px;
+  			cursor: pointer;
+    		transition: transform 0.2s, background-color 0.2s;
+  		}
+  		.surprise-me-button:active {
+  			transform: scale(1.1);
+  			background-color: #0056b3;
+  		}
+
+		.envelope {
+			display: flex;
+			justify-content: center;
+			position: relative;
+			padding: 50px;
+			margin: 70px;
+			border: dotted #f542e6;
+            animation: move-to-center 3s forwards;
+		}
+		@keyframes move-to-center {
+			0% {transform: translateX(-100%);}
+			100% {transform: translateX(0%);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<!--<h1>Header</h1>-->
+		</header>
+		<main>
+
+			<!--<h2>main content</h2>-->
+			<h3>Click the envelope to reveal a secret ⋆｡°✩</h3>
+
+			<div class="surprise-me-button">
+				<a href="https://www.youtube.com/watch?v=7pfDfzUdxYM" target="_blank"><h2>SURPRISE ME!</h2></a>
+			</div>
+			<div class="envelope">
+				<p>
+					<div class="evelope-animation">
+						<a href="letter.html">
+							<img src="images/envelope.png" alt="Envelope" width="300" height="200">
+						</a>
+					</div>
+				</p>
+			</div>
+		</main>
+		<nav>
+			<!--<h2>nav</h2>-->
+			<ul>
+				<li><a href="index.html">🏠</a></li>
+				<!--
+				<li>Page 2</li>
+		         <li>Page 3</li>
+		         <li>Contact</li>
+		    	-->
+		     </ul>
+		 </nav>
+		 <aside>
+		 	<!--<h2>sidebar</h2>-->
+		 	<!--<p>related content</p>-->
+		 </aside>
+		 	<footer><p>&copy; Copyright 2024 Isabella Arguello</p></footer>
+		</div>
+	</body>
+</html>
