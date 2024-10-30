@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Letter</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+	<style>
+		body{
+			background-image: url("images/paper.jpg");
+			margin-top: 4em; padding: 5em; color: #f1f1f1; font-family: 'Anonymous Pro', monospace;background-color: #673ab7;
+		}
+		main{
+			margin: 20px;
+			padding:50px;
+		}
+		nav{
+			font-size: 50px;
+			list-style-type: none;
+		}
+		ul{
+			float: left;
+			bottom: 350px;
+			left: 50px;
+		}
+		/*
+		.home{
+			position: sticky;
+			bottom: 250px;
+			left: 50px;
+		}*/
+		.next{
+			position: absolute;
+			font-size:50px;
+  			bottom: 545px;
+  			right: 200px;
+  			list-style-type: none;
+		}
+    	.paper {
+    		position: absolute;
+  			top: 200px;
+  			width: 300px;
+  			height: 200px;
+  			animation: mymove 13s;
+  			animation-iteration-count: infinite;
+  		}
+  		@keyframes mymove {
+ 		100% {opacity: 0%}
+ 		}
+ 		.message{
+ 			font-size: 16px;
+ 			text-align: center;
+ 			position: relative;
+ 			margin-left: auto;
+  			margin-right: auto;
+  			overflow: auto;
+ 			color: white;
+ 			background-color: pink;
+ 			border: 3px dotted hotpink;
+ 			width: 100px;
+ 			height: 100px;
+ 			transition: width 2s, height 2s, transform 2s;
+ 		}
+ 		.message:hover {
+ 			width: 400px;
+ 			height: 400px;
+ 			transform: rotate(360deg);
+ 		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<!--<h1>Header</h1>-->
+		</header>
+		<main>
+			<!--<h2>main content</h2>-->
+			<div class="paper">
+				<img src="images/open_envelope.png" alt="open envelope" width="500" height="350">
+			</div>
+			<div class="message">
+				<p> Thank you for opening this letter! This is a reminder to be kind to yourself and others around you. Take things one step at a time and explore new things. Here's a poem for you:
+
+				<br>You are not small. 
+				<br>You are not unworthy. 
+				<br>You are not insignificant. 
+
+ 				<br>The universe wove you from a constellation, 
+				<br>just so atom, every fibre in you comes from
+				<br>a different star. 
+				<br>Together, you are bound by stardust , altogether
+				<br>spectacularly created by the energy of the
+				<br>universe itself. 
+				<br>And that, my darling, 
+				<br>is the poetry of physics, 
+				<br>the poetry of you. 
+
+				<br>—Nikita Gill </p>	
+			</div>
+			<div class="next">
+				<li><a href="end.html">💖</a></li>
+			</div>
+		</main>
+		<nav>
+			<!--<h2>nav</h2>-->
+			<ul>
+				<div class="home">
+					<li><a href="index.html">🏠</a></li>
+				</div>
+				<!--
+				<li>Page 2</li>
+		         <li>Page 3</li>
+		         <li>Contact</li>
+		    	-->
+		     </ul>
+		 </nav>
+		 <aside>
+		 	<!--<h2>sidebar</h2>-->
+		 	<!--<p>related content</p>-->
+		 </aside>
+		 	<!--<footer><p>&copy; Copyright 2024 Isabella Arguello</p></footer>-->
+		</div>
+	</body>
+</html>
