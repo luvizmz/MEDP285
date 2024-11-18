@@ -1,0 +1,13 @@
+body{
+	text-align: center;
+	background-color: #a7c7fa;
+  	font-family: "Bitter", serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
