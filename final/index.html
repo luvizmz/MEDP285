@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+	<style>
+		body {
+			margin: 0;
+      		padding: 0;
+      		height: 100vh;
+      		display: flex;
+      		justify-content: center;
+      		align-items: center;
+      		background-image: url('images/sky.gif');
+      		background-size: cover;
+      		background-position: center;
+      		transition: background 0.5s ease;
+      	}
+      	main{
+      		margin-left: auto;
+  			margin-right: auto;
+  			padding: 0;
+        	align-items: center;
+        	justify-content: center;
+      	}
+      	.container {
+      		color:white;
+      		display:flex; /* */
+      		flex-wrap:wrap;
+      		align-items: center;
+  			justify-content: center;
+  			margin-left: auto;
+  			margin-right: auto;
+  			padding: 0;
+  		}
+ 		nav{
+			position: fixed;
+			top:40%;
+			padding:5px;
+			margin: 2px;
+			font-size: 25px;
+		}
+      	 button {
+      	 	justify-content: center;
+      	 	align-items: center;
+      	 	padding: 10px 20px;
+      		font-size: 18px;
+      		border: dotted;
+      		border-radius: 3px;
+      		background-color: #8657b5;
+      		color: #fff;
+      		cursor: pointer;
+      		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+      		transition: background-color 1s;
+      	}
+
+      	#text {
+      		display: none;
+      		font-size: 24px;
+      		font-weight: bold;
+      		color: #FFFFFF;
+      		margin: 50px;
+      		padding: 80px;
+      		border: dotted 5px #620069;
+
+    	}
+    	p{
+    		font-weight: normal;
+    	}
+    	.fading-text {
+            position: absolute;
+            color: #7436b3;
+            font-size: 20px;
+            font-weight: lighter;
+            animation: fade 10s infinite;
+        }
+
+        @keyframes fade {
+            0%, 100% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+        .pos1 { top: 10%; left: 20%; animation-delay: 0s; }
+        .pos2 { top: 50%; left: 7%; animation-delay: 1s; }
+        .pos3 { bottom: 10%; right: 10%; animation-delay: 2s; }
+        .pos4 { top: 5%; left: 70%; animation-delay: 3s; }
+        .pos5 { top: 85%; left: 20%; animation-delay: 4s; }
+    </style>
+</head>
+
+<body>	
+		<div class="container">
+			<main>
+				<button id="background">Enter</button>
+				<div id="text">
+					<h1>Welcome to careSpace</h1>
+					<p>Enjoy different rooms and activities to take your mind off the stress of life</p>
+					<div class="fading-text pos1">You are enough</div>
+    				<div class="fading-text pos2">I love who I am</div>
+   	 				<div class="fading-text pos3">I am worthy of love and kindness</div>
+    				<div class="fading-text pos4">Each day, my life gets better in every way</div>
+    				<div class="fading-text pos5">I am capable of achieving my goals</div>
+    			</div>
+    			<script>
+    				$(document).ready(function(){
+    					$("button").click(function(){
+    						$(this).hide();
+    					});
+    				});
+
+    				const button = document.getElementById('background');
+					const body = document.body;
+					const text = document.getElementById('text');
+
+					button.addEventListener('click', () => {
+					body.style.backgroundImage = 'none';
+					body.style.backgroundColor = '#ebc3fa';
+					text.style.display = 'block';
+				});
+			</script>
+		</main>
+		<nav>
+			<ul>
+				<li><a href="index.html">🏠</li>
+				<li><a href="library.html">🎧</li>
+				<li><a href="easel.html">🎨</li>
+			</ul>
+		</nav>
+	</div>
+	<aside>
+		<!--<h2>sidebar</h2>-->
+		<!--<p>related content</p>-->		
+	</aside>
+	<!--<><p>&copy; Copyright 2024 Isabella Arguello</p></footer>-->
+</body>
+</html>

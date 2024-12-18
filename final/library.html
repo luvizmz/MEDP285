@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Library</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+	<style>
+		body{
+			width:auto;
+			height:auto;
+			background-image: radial-gradient(#D5E7F2, #73B2D9, #3973BF);
+		}
+		h1{
+			text-align: center;
+			color: #243996;
+		}
+		nav{
+			padding: auto;
+			margin: auto;
+			postion: absolute;
+			top: 10%;
+			left: 90%;
+		}
+		.container{
+			display:flex;
+			flex-wrap:wrap;
+			max-width: 500px;
+			align-items: center;
+  			justify-content: center;
+  			margin: auto;
+  			padding: auto;
+
+		}
+		.image{
+			align-items: center;
+  			justify-content: center;
+  			margin: auto;
+  			padding: auto;
+  			width: 700px;
+  			height: 400px;
+  			gap: 15px;
+  			position: absolute; 
+  			right: 20%;
+		}
+		.category {
+      		display: flex;
+      		gap: 150px;
+      		overflow-x: auto;
+      	}
+      	.category-item{
+      		background-color: ;
+      		flex: 0 0 auto;
+      		width: 200px;
+      		text-align: center;
+      		cursor: pointer;
+      	}
+      	.category-item img {
+      		width: 100%;
+      		border-radius: 10px;
+      	}
+      	button{
+      		background-color:#73B2D9;
+      		border: none;
+      	}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<main>
+			<h1>Sound Garden</h1>
+			<h2>Featured Sounds</h2>
+			<p>Find some soothing sounds that work best for you!</p>
+			<div class="category">
+				<div class="category-item">
+					<img src="images/beachcover.jpg">
+					<p>Feeling good? Listen to this!</p>
+					<iframe src="https://editor.p5js.org/luvizmz/full/jweykzBRd" style="width: 300px; height: 100px; overflow: hidden;"  scrolling="no" frameborder="0"></iframe>
+				</div>
+				<div class="category-item">
+					<img src="images/calmcover.jpg" alt="Playlist 2">
+					<p>Feeling anxious? Listen to this!</p>
+					<iframe src="https://editor.p5js.org/luvizmz/full/_zpAoiUx8" style="width: 300px; height: 100px; overflow: hidden;"  scrolling="no" frameborder="0"></iframe>
+				</div>
+				<div class="category-item">
+					<img src="images/studycover.jpg" alt="Playlist 2">
+					<p>Need to get some studying done? Listen to this!</p>
+					<iframe src="https://editor.p5js.org/luvizmz/full/yfWqdQRoZ" style="width: 300px; height: 100px; overflow: hidden;"  scrolling="no" frameborder="0"></iframe>
+				</div>
+				<div class="category-item">
+					<img src="images/restcover.jpg" alt="Playlist 2">
+					<p>Want some rest? Listen to this!</p>
+					<iframe src="https://editor.p5js.org/luvizmz/full/aJp4u0GP1"style="width: 300px; height: 100px; overflow: hidden;"  scrolling="no" frameborder="0"></iframe>
+				</div>
+			</div>
+			<div class="image">
+				<img src="images/waterfall.gif" alt="waterfall">		
+			</div>
+		</main>
+	</div>
+		<nav>
+		<ul>
+			<li><a href="index.html">🏠</a></li>
+			<li><a href="library.html">🎧</a></li>
+			<li><a href="easel.html">🎨</a></li>
+		</ul>
+	</nav>
+	<footer></footer>
+</body>
+</html>
